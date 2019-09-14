@@ -1,0 +1,6 @@
+framework module Pods_AllInCode {
+  umbrella header "Pods-AllInCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
