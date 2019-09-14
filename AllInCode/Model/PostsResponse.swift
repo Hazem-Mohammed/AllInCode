@@ -7,28 +7,11 @@
 //
 
 import Foundation
-import ObjectMapper
 
-struct PostResponse: Mappable {
+
+struct Post: Codable {
     
-    var title: String
-    var body: String
+    let title: String
+    let body: String
     
-    init?(map: Map) {
-        
-        title = ""
-        body = ""
-    }
-    
-    init(){
-        
-        title = ""
-        body = ""
-    }
-    
-    mutating func mapping(map: Map) {
-        
-        title <- map["title"]
-        body <- map["body"]
-    }
 }

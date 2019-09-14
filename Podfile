@@ -6,7 +6,6 @@ target 'AllInCode' do
   use_frameworks!
 
   # Pods for AllInCode
-pod 'Alamofire', '~> 4.7'
-pod 'ObjectMapper', '~> 3.4'
+  pod 'Alamofire', '~> 4.7'
 
 end
